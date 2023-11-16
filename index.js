@@ -10,11 +10,8 @@ function redirectToOrderPage() {
     window.location.href="order food/order.html";
   }
 
-  // Get the button element by its ID
-  var button = document.getElementById("update");
 
-  // Add a click event listener to the button
-  button.addEventListener("click", function() {
-    // Display an alert when the button is clicked
-    alert("Button pressed!");
-  });
+//show an alert on clicking get updates
+  function showalert(){
+    alert("You have been subscribed to our weekly mail updates");
+}
